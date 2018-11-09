@@ -1,0 +1,33 @@
+baseurl = "http://blog.bernardpaul.fr"
+title = "Tech stuff"
+copyright = "Copyright &copy; 2018 - polohb"
+canonifyurls = true
+theme = "kiera"
+
+paginate = 3
+
+summaryLength = 30
+enableEmoji = true
+pygmentsCodeFences = true
+
+[author]
+    name = "polohb"
+    github = "polohb"
+    gitlab = ""
+    linkedin = ""
+    facebook = ""
+    twitter = ""
+    instagram = ""
+
+[params]
+    tagline = "Some DevOps and Sysadmin for memory"
+
+
+[[menu.main]]
+    name = "Home" #Name in the navigation bar
+    weight = 10 #The larger the weight, the more on the right this item will be
+    url = "/" #URL address
+[[menu.main]]
+    name = "Posts"
+    weight = 20
+    url = "/posts/"
