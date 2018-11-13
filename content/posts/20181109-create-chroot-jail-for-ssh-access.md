@@ -1,7 +1,7 @@
 +++
 title = "Create chroot jail for ssh access"
 date = 2018-11-09T23:51:32+01:00
-draft = true
+draft = false
 tags = ["server","linux","security"]
 categories = []
 +++
@@ -48,7 +48,7 @@ In this example I only want the users to be able to get into bash and use the ls
     cp /bin/bash .
 ```
 
-Now that you've got all the binaries in place, you need to add the proper shared libraries. 
+Now that you've got all the binaries in place, you need to add the proper shared libraries.
 Use the following useful script called l2chroot which automatically finds the libraries and copies them to your chroot jail.
 
 ```
@@ -57,8 +57,8 @@ Use the following useful script called l2chroot which automatically finds the li
     chmod +x l2chroot
 ```
 
-Edit the l2chroot file and change `BASE="/webroot"` to `BASE="/var/jail"`. 
-This tells l2chroot where your jail is located so it copies everything to the right place. 
+Edit the l2chroot file and change `BASE="/webroot"` to `BASE="/var/jail"`.
+This tells l2chroot where your jail is located so it copies everything to the right place.
 Now go ahead and run the command on the binaries you want.
 
 ```
@@ -77,7 +77,5 @@ To configure ChrootDirectory add the following to /etc/ssh/sshd_config:
         AllowTcpForwarding no
 ```
 
-Note that by default this disables X11Forwarding and does not allow port forwarding. 
+Note that by default this disables X11Forwarding and does not allow port forwarding.
 If you want to enable one, you just need to change ‘no’ for ‘yes’.
-
-
