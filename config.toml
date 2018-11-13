@@ -1,4 +1,4 @@
-baseurl = "http://blog.bernardpaul.fr"
+baseurl = "https://polohb.github.io/tech-memories"
 title = "Tech stuff"
 copyright = "Copyright &copy; 2018 - polohb"
 canonifyurls = true
