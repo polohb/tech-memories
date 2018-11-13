@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Tech memories</title>
-    <link>https://polohb.github.io/tech-memories/posts/</link>
-    <description>Recent content in Posts on Tech memories</description>
+    <title>Server on Tech memories</title>
+    <link>https://polohb.github.io/tech-memories/tags/server/</link>
+    <description>Recent content in Server on Tech memories</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2018 - polohb</copyright>
     <lastBuildDate>Fri, 09 Nov 2018 23:51:32 +0100</lastBuildDate>
     
-	<atom:link href="https://polohb.github.io/tech-memories/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://polohb.github.io/tech-memories/tags/server/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://polohb.github.io/tech-memories/posts/20181109-create-chroot-jail-for-ssh-access/</guid>
       <description>Setup group and users  groupadd jailusers adduser userjailed usermod -a -G jailusers userjailed  Setup the jail directories  mkdir -p /var/jail/{dev,etc,lib,usr,bin,lib64} mkdir -p /var/jail/usr/bin chown root.root /var/jail  You also need the /dev/null file:</description>
-    </item>
-    
-    <item>
-      <title>Dokcer Tips and Tricks</title>
-      <link>https://polohb.github.io/tech-memories/posts/20181109-dokcer-tips-and-tricks/</link>
-      <pubDate>Fri, 09 Nov 2018 23:47:09 +0100</pubDate>
-      
-      <guid>https://polohb.github.io/tech-memories/posts/20181109-dokcer-tips-and-tricks/</guid>
-      <description>Remove containers docker ps -a | grep &#39;hours&#39; | awk &#39;{print $1}&#39; | xargs docker rm  You can adapt &#39;hours&#39; with days or other things to match what you want to delete.</description>
     </item>
     
   </channel>

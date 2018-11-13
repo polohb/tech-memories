@@ -62,69 +62,32 @@
 
 
 
-<article>
-
-    <h1>Dokcer Tips and Tricks</h1>
+<section id="list">
 
     
-        <aside>
-    <ul>
-        <li>
-            <time class="post-date" datetime="2018-11-09T23:47:09&#43;01:00">Nov 9, 2018</time>
-        </li>
-        
-        
 
-        
-        <li>
-            <em>
-                
-                    
-                    <a href="/tags/docker/">#docker</a>
-                
-            </em>
-        </li>
-        
-
-        <li>1 min read</li>
-    </ul>
-</aside>
+    
+        <h2>#linux</h2>
     
 
     
 
-<h1 id="remove-containers">Remove containers</h1>
+    
 
-<pre><code>docker ps -a | grep 'hours' | awk '{print $1}' | xargs docker rm
-</code></pre>
-
-<p>You can adapt <code>'hours'</code> with <code>days</code> or other things to match what you want to delete.</p>
-
-<h1 id="remove-images">Remove images</h1>
-
-<pre><code>docker images --no-trunc | grep none | awk '{print $3}' | xargs docker rmi
-</code></pre>
-
-<h1 id="remove-orphaned-volumes">Remove orphaned volumes</h1>
-
-<pre><code>docker volume ls -qf dangling=true | xargs -r docker volume rm
-</code></pre>
-
-
-</article>
-
-
-<section class="post-nav">
+    <h3>2018</h3>
     <ul>
         
-        
         <li>
-            <a href="https://polohb.github.io/tech-memories/posts/20181109-create-chroot-jail-for-ssh-access/">Create chroot jail for ssh access <i class="fa fa-chevron-circle-right"></i> </a>
+            <a href="https://polohb.github.io/tech-memories/posts/20181109-create-chroot-jail-for-ssh-access/">Create chroot jail for ssh access</a>
+            <time class="date-meta">Nov 9</time>
         </li>
         
     </ul>
+    
+    
+
 </section>
-    
+
 
 
 

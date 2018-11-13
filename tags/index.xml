@@ -20,5 +20,32 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Linux</title>
+      <link>https://polohb.github.io/tech-memories/tags/linux/</link>
+      <pubDate>Fri, 09 Nov 2018 23:51:32 +0100</pubDate>
+      
+      <guid>https://polohb.github.io/tech-memories/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>https://polohb.github.io/tech-memories/tags/security/</link>
+      <pubDate>Fri, 09 Nov 2018 23:51:32 +0100</pubDate>
+      
+      <guid>https://polohb.github.io/tech-memories/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Server</title>
+      <link>https://polohb.github.io/tech-memories/tags/server/</link>
+      <pubDate>Fri, 09 Nov 2018 23:51:32 +0100</pubDate>
+      
+      <guid>https://polohb.github.io/tech-memories/tags/server/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

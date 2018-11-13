@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Create chroot jail for ssh access</title>
+      <link>https://polohb.github.io/tech-memories/posts/20181109-create-chroot-jail-for-ssh-access/</link>
+      <pubDate>Fri, 09 Nov 2018 23:51:32 +0100</pubDate>
+      
+      <guid>https://polohb.github.io/tech-memories/posts/20181109-create-chroot-jail-for-ssh-access/</guid>
+      <description>Setup group and users  groupadd jailusers adduser userjailed usermod -a -G jailusers userjailed  Setup the jail directories  mkdir -p /var/jail/{dev,etc,lib,usr,bin,lib64} mkdir -p /var/jail/usr/bin chown root.root /var/jail  You also need the /dev/null file:</description>
+    </item>
+    
+    <item>
       <title>Dokcer Tips and Tricks</title>
       <link>https://polohb.github.io/tech-memories/posts/20181109-dokcer-tips-and-tricks/</link>
       <pubDate>Fri, 09 Nov 2018 23:47:09 +0100</pubDate>
