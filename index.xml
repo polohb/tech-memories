@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tech stuff</title>
+    <title>Tech memories</title>
     <link>https://polohb.github.io/tech-memories/</link>
-    <description>Recent content on Tech stuff</description>
+    <description>Recent content on Tech memories</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2018 - polohb</copyright>
     <lastBuildDate>Fri, 09 Nov 2018 23:43:49 +0100</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Fri, 09 Nov 2018 23:43:49 +0100</pubDate>
       
       <guid>https://polohb.github.io/tech-memories/about/</guid>
-      <description> Waves are the practice of the water. Shunryu Suzuki
+      <description> This is just a simple blog to keep some how-to and tips about DevOps and SysAdmin subjects.
  </description>
     </item>
     

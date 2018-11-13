@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Docker on Tech stuff</title>
+    <title>Docker on Tech memories</title>
     <link>https://polohb.github.io/tech-memories/tags/docker/</link>
-    <description>Recent content in Docker on Tech stuff</description>
+    <description>Recent content in Docker on Tech memories</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2018 - polohb</copyright>
     <lastBuildDate>Fri, 09 Nov 2018 23:47:09 +0100</lastBuildDate>
