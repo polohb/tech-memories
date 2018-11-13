@@ -1,10 +1,10 @@
 baseurl = "https://polohb.github.io/tech-memories"
-title = "Tech stuff"
+title = "Tech memories"
 copyright = "Copyright &copy; 2018 - polohb"
-canonifyurls = true
+canonifyurls = false
 theme = "kiera"
 
-paginate = 3
+paginate = 5
 
 summaryLength = 30
 enableEmoji = true
@@ -20,7 +20,7 @@ pygmentsCodeFences = true
     instagram = ""
 
 [params]
-    tagline = "Some DevOps and Sysadmin for memory"
+    tagline = "Some DevOps and Sysadmin tech articles for memory"
 
 
 [[menu.main]]
