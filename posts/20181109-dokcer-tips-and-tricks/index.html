@@ -1,0 +1,139 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <title>Tech stuff</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="The HTML5 Herald" />
+  <meta name="author" content="polohb" />
+  <meta name="generator" content="Hugo 0.51" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
+  <link rel="stylesheet" type="text/css" href="https://polohb.github.io/tech-memories/css/styles.css" />
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>
+                <a href="https://polohb.github.io/tech-memories/">Tech stuff</a>
+            </h1>
+
+      <ul id="social-media">
+          
+        <li><a href="https://github.com/polohb"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+           
+      </ul>
+      
+      <p><em>Some DevOps and Sysadmin for memory</em></p>
+      
+    </header>
+
+    
+<nav>
+    <ul>
+        
+        <li>
+            <a class="" href="https://polohb.github.io/tech-memories/">
+                <i class="fa-li fa  fa-lg"></i><span>Home</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="https://polohb.github.io/tech-memories/posts/">
+                <i class="fa-li fa  fa-lg"></i><span>Posts</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="https://polohb.github.io/tech-memories/about/">
+                <i class="fa-li fa  fa-lg"></i><span>About</span>
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+
+    <main>
+
+
+
+
+<article>
+
+    <h1>Dokcer Tips and Tricks</h1>
+
+    
+        <aside>
+    <ul>
+        <li>
+            <time class="post-date" datetime="2018-11-09T23:47:09&#43;01:00">Nov 9, 2018</time>
+        </li>
+        
+        
+
+        
+        <li>
+            <em>
+                
+                    
+                    <a href="https://polohb.github.io/tech-memories/tags/docker/">#docker</a>
+                
+            </em>
+        </li>
+        
+
+        <li>1 min read</li>
+    </ul>
+</aside>
+    
+
+    
+
+<h1 id="remove-containers">Remove containers</h1>
+
+<pre><code>docker ps -a | grep 'hours' | awk '{print $1}' | xargs docker rm
+</code></pre>
+
+<p>You can adapt <code>'hours'</code> with <code>days</code> or other things to match what you want to delete.</p>
+
+<h1 id="remove-images">Remove images</h1>
+
+<pre><code>docker images --no-trunc | grep none | awk '{print $3}' | xargs docker rmi
+</code></pre>
+
+<h1 id="remove-orphaned-volumes">Remove orphaned volumes</h1>
+
+<pre><code>docker volume ls -qf dangling=true | xargs -r docker volume rm
+</code></pre>
+
+
+</article>
+
+
+<section class="post-nav">
+    <ul>
+        
+        
+    </ul>
+</section>
+    
+
+
+
+
+
+</main>
+    <footer>
+        <h6>Copyright &copy; 2018 - polohb | 
+            Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
+            <a href="https://polohb.github.io/tech-memoriesindex.xml">Subscribe</a></h6>
+    </footer>
+</div>
+<script src="https://polohb.github.io/tech-memories/js/scripts.js"></script>
+</body>
+
+</html>
