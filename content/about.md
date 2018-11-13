@@ -6,4 +6,5 @@ weight = "30" #Right-most nav item
 meta = "false" #Do not display tags or categories
 +++
 
-> Waves are the practice of the water. Shunryu Suzuki
+> This is just a simple blog to keep some how-to and tips
+about DevOps and SysAdmin subjects.
