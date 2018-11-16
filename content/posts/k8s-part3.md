@@ -8,7 +8,7 @@ categories = []
 
 # What will be covered
 
-* .../...
+* How to deploy a traefik ingress controller with and without tls
 
 
 # Usefull ressources links
