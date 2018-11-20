@@ -123,7 +123,7 @@ metadata:
   namespace: rook-ceph
 spec:
   rules:
-  - host: ceph-ui.k8s.pau.int.com
+  - host: ceph-ui.mydomain.com
     http:
       paths:
       - path: /
@@ -141,7 +141,7 @@ kubectl apply -f ceph-ingress.yaml
 ```
 
 
-Go to your new url : http://ceph-ui.k8s.pau.int.com
+Go to your new url : http://ceph-ui.mydomain.com
 
 
 ## Block Storage
